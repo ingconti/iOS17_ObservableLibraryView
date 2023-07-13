@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		CE16E02A2A60A0AF00976124 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16E0232A60A0AF00976124 /* Model.swift */; };
 		CE16E02B2A60A0AF00976124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE16E0242A60A0AF00976124 /* Assets.xcassets */; };
-		CE16E02C2A60A0AF00976124 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE16E0262A60A0AF00976124 /* Preview Assets.xcassets */; };
 		CE16E02D2A60A0AF00976124 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16E0272A60A0AF00976124 /* LibraryView.swift */; };
 		CE16E02E2A60A0AF00976124 /* iOS17_ObservableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16E0282A60A0AF00976124 /* iOS17_ObservableApp.swift */; };
 		CE16E02F2A60A0AF00976124 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16E0292A60A0AF00976124 /* ContentView.swift */; };
+		CE47AC4E2A60A9A700D05C80 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CE47AC4D2A60A9A700D05C80 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE16E0232A60A0AF00976124 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		CE16E0242A60A0AF00976124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE16E0262A60A0AF00976124 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE16E0272A60A0AF00976124 /* LibraryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		CE16E0282A60A0AF00976124 /* iOS17_ObservableApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOS17_ObservableApp.swift; sourceTree = "<group>"; };
 		CE16E0292A60A0AF00976124 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE47AC4D2A60A9A700D05C80 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE57CFD62A60697900CA893A /* iOS17_ObservableLibraryView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS17_ObservableLibraryView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,6 @@
 			children = (
 				CE16E0232A60A0AF00976124 /* Model.swift */,
 				CE16E0242A60A0AF00976124 /* Assets.xcassets */,
-				CE16E0252A60A0AF00976124 /* Preview Content */,
 				CE16E0272A60A0AF00976124 /* LibraryView.swift */,
 				CE16E0282A60A0AF00976124 /* iOS17_ObservableApp.swift */,
 				CE16E0292A60A0AF00976124 /* ContentView.swift */,
@@ -49,17 +48,10 @@
 			path = iOS17_ObservableLibraryView;
 			sourceTree = "<group>";
 		};
-		CE16E0252A60A0AF00976124 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				CE16E0262A60A0AF00976124 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
 		CE57CFCD2A60697900CA893A = {
 			isa = PBXGroup;
 			children = (
+				CE47AC4D2A60A9A700D05C80 /* README.md */,
 				CE16E0222A60A0AF00976124 /* iOS17_ObservableLibraryView */,
 				CE57CFD72A60697900CA893A /* Products */,
 			);
@@ -131,7 +123,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE16E02C2A60A0AF00976124 /* Preview Assets.xcassets in Resources */,
+				CE47AC4E2A60A9A700D05C80 /* README.md in Resources */,
 				CE16E02B2A60A0AF00976124 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +271,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iOS17_ObservableLibraryView/Preview Content\"";
 				DEVELOPMENT_TEAM = R4WB84S96Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -308,7 +299,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iOS17_ObservableLibraryView/Preview Content\"";
 				DEVELOPMENT_TEAM = R4WB84S96Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

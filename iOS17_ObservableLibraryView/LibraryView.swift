@@ -16,8 +16,20 @@ struct LibraryView: View {
     @Environment(Library.self) private var library
     
     var body: some View {
-        List(library.books) { book in
-            BookView(book: book)
+        VStack{
+            HStack{
+                Spacer()
+                Button {
+                    library.books.append(Book())
+                } label: {
+                    Image(systemName: "plus.app.fill")
+                        .font(.largeTitle)
+                }
+            }
+            
+            List(library.books) { book in
+                BookView(book: book)
+            }
         }
     }
 }

@@ -6,7 +6,7 @@ Simnply copy && past from Apple WWWDC2023 code here:
 
 https://developer.apple.com/documentation/swiftui/migrating-from-the-observable-object-protocol-to-the-observable-macro
 
-but added "Add" book.
+but as bonus, inserted "Add" book button.
 
 
 
